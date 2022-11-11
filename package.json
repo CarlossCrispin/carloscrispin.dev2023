@@ -1,5 +1,5 @@
 {
-  "name": "vite-eslint-prettier-template",
+  "name": "carloscrispin.dev2023",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,12 +9,16 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "lint": "eslint  --fix . --ext .jsx,.js,.ts,.tsx src/"
+    "lint": "eslint  --fix. --ext .jsx,.js,.ts,.tsx src/"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "classnames": "^2.3.2",
     "eslint-config-prettier": "^8.5.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-router-dom": "^6.3.0"
   },
   "browserslist": {
     "production": [
